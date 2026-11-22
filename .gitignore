@@ -1,0 +1,65 @@
+# ================================================================
+# NetWolf v2 - files that must never be uploaded
+# ================================================================
+
+# ---- Build output ----
+build/
+build-*/
+out/
+bin/
+obj/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+.ninja_deps
+.ninja_log
+build.ninja
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.res
+
+# ---- Visual Studio / VS Code ----
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.aps
+
+# ---- Npcap SDK (download it yourself, see README) ----
+third_party/npcap-sdk/
+
+# ---- Private data from monitoring sessions ----
+# Reports, logs and experiments stay on your PC. Publish them only
+# deliberately (anonymized, without aliases.csv), e.g. in a release.
+Telecommunications Information Reports/
+experiments/
+evaluation_results/
+aliases.csv
+**/aliases.csv
+*.pcap
+*.pcapng
+
+# Raw ip2asn download (the compact resources/ip2asn.bin IS committed)
+ip2asn-v4.tsv
+ip2asn-v4.tsv.gz
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- Windows / editors ----
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*~

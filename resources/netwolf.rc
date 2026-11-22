@@ -1,0 +1,9 @@
+#include "resource.h"
+
+// The first/lowest-id ICON resource becomes the executable's icon
+// (shown in Explorer, the taskbar, and any shortcut to the .exe).
+IDI_NETWOLF ICON "netwolf.ico"
+
+// Offline IP-to-ASN owner database (iptoasn.com ip2asn-v4, converted by
+// tools/make_asn_bin.py). Embedded so the .exe works with no extra files.
+IDR_NETWOLF_ASN RCDATA "ip2asn.bin"

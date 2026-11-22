@@ -1,0 +1,19 @@
+# NetWolf v2 - experiment description (one file in each experiment folder)
+# Copy this file into Exp-01, Exp-02, ... next to the "data" folder and edit it.
+# Lines starting with # are comments.
+
+# normal = no attack in this experiment
+# attack = an Evil Twin relay was started during the experiment
+type = attack
+
+# attack only: the alias of the Evil Twin device (see the ALERT report or data\devices.csv)
+relay = D4
+
+# attack only: when Wi-Fi sharing was turned on on the relay phone
+attack_start = 2026-11-21 16:05:00
+
+# attack only: when the last victim device was connected to the relay
+last_victim_moved = 2026-11-21 16:07:10
+
+# optional: devices to leave out of the evaluation (comma separated)
+# exclude = D7
