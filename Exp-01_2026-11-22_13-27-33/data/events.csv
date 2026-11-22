@@ -1,0 +1,76 @@
+time,elapsed_s,event,details
+2026-11-22 13:27:33.275,0.0,log_started,Experiment log started
+2026-11-22 13:27:34.318,1.0,device_joined,D1 (Apple (by name)) state Normal
+2026-11-22 13:27:35.337,2.1,device_joined,D2 (Detecting...) state Normal
+2026-11-22 13:27:37.381,4.1,device_joined,D3 (Detecting...) state Normal
+2026-11-22 13:27:49.570,16.3,state_changed,D3: Normal -> Heavy
+2026-11-22 13:27:52.632,19.4,forwarding_detected,D3 forwards traffic of other devices
+2026-11-22 13:28:10.935,37.7,state_changed,D1: Normal -> Heavy
+2026-11-22 13:28:12.992,39.7,state_changed,D2: Normal -> Heavy
+2026-11-22 13:28:22.144,48.9,state_changed,D2: Heavy -> Normal
+2026-11-22 13:28:28.260,55.0,state_changed,D1: Heavy -> Normal
+2026-11-22 13:28:38.458,65.2,state_changed,D1: Normal -> Heavy
+2026-11-22 13:28:43.558,70.3,state_changed,D2: Normal -> Heavy
+2026-11-22 13:28:49.696,76.4,state_changed,D1: Heavy -> Normal
+2026-11-22 13:28:50.709,77.4,state_changed,D2: Heavy -> Normal
+2026-11-22 13:28:51.733,78.5,state_changed,D1: Normal -> Heavy
+2026-11-22 13:28:52.752,79.5,state_changed,D1: Heavy -> Normal
+2026-11-22 13:29:20.243,107.0,state_changed,D3: Heavy -> Normal
+2026-11-22 13:30:26.333,173.1,device_left,D1 (was Normal)
+2026-11-22 13:30:32.434,179.2,device_joined,D1 (Apple iPhone (iOS)) state Normal
+2026-11-22 13:30:37.508,184.2,device_left,D1 (was Normal)
+2026-11-22 13:30:39.530,186.3,state_changed,D2: Normal -> Heavy
+2026-11-22 13:30:42.573,189.3,state_changed,D2: Heavy -> Normal
+2026-11-22 13:30:45.611,192.3,device_joined,D1 (Apple iPhone (iOS)) state Normal
+2026-11-22 13:30:48.660,195.4,state_changed,D2: Normal -> Heavy
+2026-11-22 13:30:49.677,196.4,state_changed,D2: Heavy -> Normal
+2026-11-22 13:30:50.694,197.4,device_left,D1 (was Normal)
+2026-11-22 13:30:52.734,199.5,state_changed,D2: Normal -> Heavy
+2026-11-22 13:31:02.900,209.6,state_changed,D2: Heavy -> Normal
+2026-11-22 13:31:50.542,257.3,device_joined,D1 (Apple iPhone (iOS)) state Normal
+2026-11-22 13:31:58.702,265.4,state_changed,D1: Normal -> Heavy
+2026-11-22 13:33:24.374,351.1,state_changed,D1: Heavy -> Normal
+2026-11-22 13:38:08.341,635.1,state_changed,D3: Normal -> Heavy
+2026-11-22 13:38:20.620,647.3,state_changed,D3: Heavy -> Normal
+2026-11-22 13:38:33.848,660.6,state_changed,D3: Normal -> Heavy
+2026-11-22 13:38:35.895,662.6,state_changed,D3: Heavy -> Normal
+2026-11-22 13:38:36.913,663.6,state_changed,D3: Normal -> Heavy
+2026-11-22 13:38:44.053,670.8,state_changed,D3: Heavy -> Normal
+2026-11-22 13:39:12.563,699.3,state_changed,D3: Normal -> Heavy
+2026-11-22 13:39:23.784,710.5,state_changed,D3: Heavy -> Normal
+2026-11-22 13:39:28.874,715.6,state_changed,D3: Normal -> Heavy
+2026-11-22 13:39:39.063,725.8,state_changed,D3: Heavy -> Normal
+2026-11-22 13:39:42.120,728.8,state_changed,D3: Normal -> Heavy
+2026-11-22 13:39:57.416,744.1,state_changed,D3: Heavy -> Normal
+2026-11-22 13:40:13.732,760.5,state_changed,D2: Normal -> Heavy
+2026-11-22 13:40:17.811,764.5,state_changed,D2: Heavy -> Normal
+2026-11-22 13:40:27.985,774.7,state_changed,D2: Normal -> Heavy
+2026-11-22 13:40:56.529,803.3,state_changed,D3: Normal -> Heavy
+2026-11-22 13:40:58.566,805.3,state_changed,D2: Heavy -> Normal
+2026-11-22 13:41:04.671,811.4,state_changed,D3: Heavy -> Normal
+2026-11-22 13:41:30.179,836.9,state_changed,D2: Normal -> Heavy
+2026-11-22 13:41:30.179,836.9,forwarding_detected,D2 forwards traffic of other devices
+2026-11-22 13:42:04.826,871.6,device_left,D1 (was Normal)
+2026-11-22 13:42:07.879,874.6,state_changed,D2: Heavy -> Redflag
+2026-11-22 13:42:07.879,874.6,device_left,D3 (was Normal)
+2026-11-22 13:42:07.879,874.6,evil_twin,"COLLAPSE: 2 of 3 devices vanished within 150 s; 1 remain. Baseline per person: 3.0 destinations, 9.0 connections."
+2026-11-22 13:42:07.879,874.6,evil_twin,"ALERT: Evil Twin suspect D2 (D2). (1) Crowd: 3 devices were connected (1 Android / Linux, 1 Apple D1 (iOS) vanished). (2) Collapse: 2 of 3 vanished 0 s ago. (3) Takeover by D2: vanished devices found behind it: D3 (16 Android/Linux connection starts appeared behind it), D1 (6 Apple connection starts appeared behind it); it carries ~4.7 people's activity (14 destinations vs 3.0 per person; 42 connections vs 9.0 per person). Fingerprints: forwards traffic of other devices (22 connections with decreased TTL, 22 since the crowd peak) from Apple, Android/Linux; 7% of its destinations are new for it and were used by the vanished devices."
+2026-11-22 13:42:22.142,888.9,device_joined,D3 (Android / Linux) state Normal
+2026-11-22 13:42:22.142,888.9,forwarding_detected,D3 forwards traffic of other devices
+2026-11-22 13:42:27.236,894.0,device_left,D3 (was Normal)
+2026-11-22 13:43:41.527,968.3,device_joined,D3 (Android / Linux) state Normal
+2026-11-22 13:43:41.527,968.3,forwarding_detected,D3 forwards traffic of other devices
+2026-11-22 13:44:08.133,994.9,device_left,D3 (was Normal)
+2026-11-22 13:44:09.149,995.9,device_joined,D3 (Android / Linux) state Normal
+2026-11-22 13:44:09.149,995.9,forwarding_detected,D3 forwards traffic of other devices
+2026-11-22 13:44:19.393,1006.1,device_left,D3 (was Normal)
+2026-11-22 13:44:24.561,1011.3,device_joined,D3 (type unknown) state Normal
+2026-11-22 13:44:32.751,1019.5,device_left,D3 (was Normal)
+2026-11-22 13:44:52.134,1038.9,device_joined,D3 (type unknown) state Normal
+2026-11-22 13:45:05.403,1052.1,device_left,D3 (was Normal)
+2026-11-22 13:45:08.453,1055.2,device_joined,D3 (type unknown) state Normal
+2026-11-22 13:45:13.567,1060.3,device_left,D3 (was Normal)
+2026-11-22 13:45:24.792,1071.5,device_joined,D3 (type unknown) state Normal
+2026-11-22 13:45:29.861,1076.6,device_left,D3 (was Normal)
+2026-11-22 13:46:10.579,1117.3,evil_twin,"COLLAPSE: 1 of 2 devices vanished within 149 s; 1 remain. Baseline per person: 4.0 destinations, 10.0 connections."
+2026-11-22 13:56:11.633,1718.4,log_stopped,Experiment log stopped

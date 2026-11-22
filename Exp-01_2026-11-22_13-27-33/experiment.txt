@@ -1,0 +1,4 @@
+type = attack
+relay = D2
+attack_start = 2026-11-22 13:41:19
+last_victim_moved = 2026-11-22 13:41:22

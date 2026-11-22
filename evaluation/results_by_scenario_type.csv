@@ -1,0 +1,10 @@
+scenario_type,label,scenarios,"NetWolf v2 (detected or flagged share)","B1 connection count (detected or flagged share)","B2 destination count (detected or flagged share)","B3 TTL forwarding only (detected or flagged share)","B4 concentration ratio (previous NetWolf) (detected or flagged share)","B5 isolation forest (detected or flagged share)"
+attack_relay_in_crowd,attack,180,0.772,0.661,0.600,0.978,0.939,0.522
+attack_relay_new_device,attack,180,0.950,0.706,0.639,1.000,0.983,0.544
+attack_ttl_normalized_in_crowd,attack,60,0.483,0.733,0.617,0.000,0.983,0.050
+attack_ttl_normalized_new_device,attack,60,0.883,0.717,0.650,0.000,1.000,0.017
+benign_natural_churn,benign,180,0.061,0.628,0.000,0.150,0.906,0.000
+benign_mass_departure,benign,120,0.008,0.475,0.000,0.000,0.825,0.000
+benign_heavy_user_remains,benign,90,0.067,0.411,0.000,0.000,0.889,0.000
+benign_tethering_remains,benign,90,0.067,0.467,0.044,0.967,0.956,0.022
+benign_tunnel_device_remains,benign,90,0.044,0.411,0.000,0.000,0.811,0.000

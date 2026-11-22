@@ -1,0 +1,131 @@
+time,elapsed_s,event,details
+2026-11-22 17:06:29.105,0.0,log_started,Experiment log started
+2026-11-22 17:06:30.534,1.4,device_joined,D2 (Detecting...) state Normal
+2026-11-22 17:06:30.534,1.4,device_joined,D1 (Detecting...) state Normal
+2026-11-22 17:06:35.597,6.5,device_joined,D4 (Detecting...) state Normal
+2026-11-22 17:06:35.597,6.5,device_joined,D3 (Detecting...) state Normal
+2026-11-22 17:07:12.144,43.0,state_changed,D1: Normal -> Heavy
+2026-11-22 17:07:13.155,44.0,state_changed,D1: Heavy -> Normal
+2026-11-22 17:07:14.174,45.1,state_changed,D1: Normal -> Heavy
+2026-11-22 17:07:30.451,61.3,state_changed,D3: Normal -> Heavy
+2026-11-22 17:07:36.550,67.4,device_joined,D5 (Apple iPhone (iOS)) state Normal
+2026-11-22 17:07:37.561,68.5,state_changed,D5: Normal -> Heavy
+2026-11-22 17:07:40.628,71.5,device_joined,D6 (type unknown) state Normal
+2026-11-22 17:07:44.693,75.6,state_changed,D4: Normal -> Heavy
+2026-11-22 17:07:50.809,81.7,state_changed,D5: Heavy -> Normal
+2026-11-22 17:07:59.968,90.9,state_changed,D1: Heavy -> Normal
+2026-11-22 17:08:11.142,102.0,device_left,D2 (was Normal)
+2026-11-22 17:08:16.233,107.1,device_joined,D2 (Apple (iOS / macOS)) state Normal
+2026-11-22 17:08:18.261,109.2,state_changed,D1: Normal -> Heavy
+2026-11-22 17:08:24.356,115.3,state_changed,D1: Heavy -> Normal
+2026-11-22 17:08:30.446,121.3,state_changed,D2: Normal -> Heavy
+2026-11-22 17:08:30.446,121.3,state_changed,D3: Heavy -> Normal
+2026-11-22 17:08:34.521,125.4,state_changed,D4: Heavy -> Normal
+2026-11-22 17:08:40.629,131.5,state_changed,D2: Heavy -> Normal
+2026-11-22 17:08:45.723,136.6,device_left,D5 (was Normal)
+2026-11-22 17:09:04.082,155.0,state_changed,D6: Normal -> Heavy
+2026-11-22 17:09:09.181,160.1,device_joined,D5 (Apple iPhone (iOS)) state Normal
+2026-11-22 17:09:14.261,165.2,state_changed,D6: Heavy -> Normal
+2026-11-22 17:09:23.416,174.3,state_changed,D6: Normal -> Heavy
+2026-11-22 17:09:35.633,186.5,state_changed,D6: Heavy -> Normal
+2026-11-22 17:09:44.805,195.7,state_changed,D6: Normal -> Heavy
+2026-11-22 17:09:49.899,200.8,state_changed,D6: Heavy -> Normal
+2026-11-22 17:09:50.923,201.8,state_changed,D6: Normal -> Heavy
+2026-11-22 17:10:01.133,212.0,state_changed,D6: Heavy -> Normal
+2026-11-22 17:10:03.163,214.1,state_changed,D6: Normal -> Heavy
+2026-11-22 17:10:13.330,224.2,state_changed,D6: Heavy -> Normal
+2026-11-22 17:10:54.972,265.9,device_left,D5 (was Normal)
+2026-11-22 17:10:55.991,266.9,state_changed,D6: Normal -> Heavy
+2026-11-22 17:11:09.170,280.1,state_changed,D1: Normal -> Heavy
+2026-11-22 17:11:15.290,286.2,device_joined,D5 (Apple iPhone (iOS)) state Normal
+2026-11-22 17:11:18.347,289.2,state_changed,D1: Heavy -> Normal
+2026-11-22 17:11:27.499,298.4,device_left,D5 (was Normal)
+2026-11-22 17:11:41.721,312.6,state_changed,D6: Heavy -> Normal
+2026-11-22 17:11:53.945,324.8,device_joined,D5 (Apple iPhone (iOS)) state Normal
+2026-11-22 17:12:27.431,358.3,state_changed,D5: Normal -> Heavy
+2026-11-22 17:12:57.035,387.9,device_left,D2 (was Normal)
+2026-11-22 17:13:00.105,391.0,device_joined,D2 (Apple (iOS / macOS)) state Normal
+2026-11-22 17:13:05.204,396.1,device_left,D2 (was Normal)
+2026-11-22 17:13:35.740,426.6,device_joined,D2 (Apple (iOS / macOS)) state Normal
+2026-11-22 17:13:43.896,434.8,state_changed,D5: Heavy -> Normal
+2026-11-22 17:13:44.913,435.8,state_changed,D2: Normal -> Heavy
+2026-11-22 17:13:45.938,436.8,state_changed,D5: Normal -> Heavy
+2026-11-22 17:13:50.023,440.9,state_changed,D5: Heavy -> Normal
+2026-11-22 17:13:52.075,443.0,state_changed,D4: Normal -> Heavy
+2026-11-22 17:13:52.075,443.0,forwarding_detected,D4 forwards traffic of other devices
+2026-11-22 17:14:26.715,477.6,state_changed,D5: Normal -> Heavy
+2026-11-22 17:14:31.821,482.7,state_changed,D4: Heavy -> Normal
+2026-11-22 17:14:36.914,487.8,state_changed,D2: Heavy -> Normal
+2026-11-22 17:14:56.262,507.2,state_changed,D1: Normal -> Heavy
+2026-11-22 17:14:57.289,508.2,state_changed,D1: Heavy -> Normal
+2026-11-22 17:14:58.309,509.2,state_changed,D4: Normal -> Heavy
+2026-11-22 17:15:08.470,519.4,state_changed,D4: Heavy -> Normal
+2026-11-22 17:15:09.491,520.4,state_changed,D5: Heavy -> Normal
+2026-11-22 17:15:10.500,521.4,state_changed,D4: Normal -> Heavy
+2026-11-22 17:15:11.513,522.4,state_changed,D4: Heavy -> Normal
+2026-11-22 17:16:08.491,579.4,state_changed,D1: Normal -> Heavy
+2026-11-22 17:16:09.517,580.4,state_changed,D1: Heavy -> Normal
+2026-11-22 17:17:45.109,676.0,state_changed,D2: Normal -> Heavy
+2026-11-22 17:17:50.165,681.1,state_changed,D2: Heavy -> Normal
+2026-11-22 17:18:33.859,724.8,state_changed,D4: Normal -> Heavy
+2026-11-22 17:18:44.037,734.9,state_changed,D4: Heavy -> Normal
+2026-11-22 17:18:47.105,738.0,state_changed,D4: Normal -> Heavy
+2026-11-22 17:18:57.272,748.2,state_changed,D1: Normal -> Heavy
+2026-11-22 17:19:02.372,753.3,state_changed,D1: Heavy -> Normal
+2026-11-22 17:19:16.599,767.5,state_changed,D1: Normal -> Heavy
+2026-11-22 17:19:29.855,780.8,state_changed,D2: Normal -> Heavy
+2026-11-22 17:19:29.855,780.8,state_changed,D1: Heavy -> Normal
+2026-11-22 17:19:40.064,791.0,state_changed,D2: Heavy -> Normal
+2026-11-22 17:19:44.145,795.0,state_changed,D4: Heavy -> Normal
+2026-11-22 17:19:47.207,798.1,state_changed,D4: Normal -> Heavy
+2026-11-22 17:19:53.332,804.2,state_changed,D5: Normal -> Heavy
+2026-11-22 17:19:59.424,810.3,state_changed,D2: Normal -> Heavy
+2026-11-22 17:20:04.514,815.4,state_changed,D2: Heavy -> Normal
+2026-11-22 17:20:19.784,830.7,state_changed,D2: Normal -> Heavy
+2026-11-22 17:20:26.923,837.8,state_changed,D2: Heavy -> Normal
+2026-11-22 17:20:34.050,844.9,state_changed,D5: Heavy -> Normal
+2026-11-22 17:21:14.883,885.8,device_left,D2 (was Normal)
+2026-11-22 17:21:15.905,886.8,device_left,D6 (was Normal)
+2026-11-22 17:21:17.940,888.8,device_joined,D2 (Apple (iOS / macOS)) state Normal
+2026-11-22 17:21:20.992,891.9,device_left,D1 (was Normal)
+2026-11-22 17:21:23.032,893.9,device_left,D3 (was Normal)
+2026-11-22 17:21:30.161,901.1,device_left,D2 (was Normal)
+2026-11-22 17:21:37.315,908.2,device_joined,D1 (Android / Linux) state Normal
+2026-11-22 17:21:41.400,912.3,device_left,D1 (was Normal)
+2026-11-22 17:21:43.442,914.3,state_changed,D4: Heavy -> Redflag
+2026-11-22 17:21:43.442,914.3,device_left,D5 (was Normal)
+2026-11-22 17:21:43.442,914.3,evil_twin,"COLLAPSE: 5 of 6 devices vanished within 150 s; 1 remain. Baseline per person: 4.0 destinations, 6.5 connections."
+2026-11-22 17:21:43.442,914.3,evil_twin,"ALERT: Evil Twin suspect D4 (D4). (1) Crowd: 6 devices were connected (1 Android, 2 Android / Linux, 1 Apple (iOS / macOS), 1 Apple D5 (iOS) vanished). (2) Collapse: 5 of 6 vanished 0 s ago. (3) Takeover by D4: vanished devices found behind it: D3 (57 Android/Linux connection starts appeared behind it), D6 (57 Android/Linux connection starts appeared behind it), D1 (57 Android/Linux connection starts appeared behind it); it carries ~7.8 people's activity (19 destinations vs 4.0 per person; 78 connections vs 6.5 per person). Fingerprints: forwards traffic of other devices (117 connections with decreased TTL, 91 since the crowd peak) from Apple, Android/Linux; 16% of its destinations are new for it and were used by the vanished devices."
+2026-11-22 17:21:53.607,924.5,device_joined,D1 (Android / Linux) state Normal
+2026-11-22 17:21:57.680,928.6,device_joined,D5 (Apple iPhone (iOS)) state Normal
+2026-11-22 17:21:59.701,930.6,device_joined,D2 (Apple (iOS / macOS)) state Normal
+2026-11-22 17:22:05.813,936.7,device_left,D1 (was Normal)
+2026-11-22 17:22:08.867,939.8,device_joined,D1 (Android / Linux) state Normal
+2026-11-22 17:22:09.895,940.8,device_left,D5 (was Normal)
+2026-11-22 17:22:12.932,943.8,device_joined,D5 (Apple iPhone (iOS)) state Normal
+2026-11-22 17:22:12.932,943.8,device_left,D1 (was Normal)
+2026-11-22 17:22:13.960,944.9,device_left,D2 (was Normal)
+2026-11-22 17:22:17.014,947.9,device_joined,D2 (Apple (iOS / macOS)) state Normal
+2026-11-22 17:22:18.022,948.9,device_left,D5 (was Normal)
+2026-11-22 17:22:22.097,953.0,device_left,D2 (was Normal)
+2026-11-22 17:22:24.143,955.0,device_joined,D1 (Android / Linux) state Normal
+2026-11-22 17:22:25.162,956.1,device_joined,D2 (Apple (iOS / macOS)) state Normal
+2026-11-22 17:22:28.227,959.1,device_joined,D5 (Apple iPhone (iOS)) state Normal
+2026-11-22 17:22:29.243,960.1,device_left,D1 (was Normal)
+2026-11-22 17:22:33.317,964.2,device_left,D5 (was Normal)
+2026-11-22 17:22:38.397,969.3,device_left,D2 (was Normal)
+2026-11-22 17:22:42.473,973.4,device_joined,D2 (Apple (iOS / macOS)) state Normal
+2026-11-22 17:22:47.558,978.5,device_left,D2 (was Normal)
+2026-11-22 17:23:51.682,1042.6,device_joined,D5 (Apple iPhone (iOS)) state Normal
+2026-11-22 17:24:06.976,1057.9,device_left,D5 (was Normal)
+2026-11-22 17:24:12.069,1063.0,device_joined,D5 (type unknown) state Normal
+2026-11-22 17:24:17.142,1068.0,device_left,D5 (was Normal)
+2026-11-22 17:24:33.458,1084.4,device_joined,D5 (type unknown) state Normal
+2026-11-22 17:24:37.536,1088.4,device_left,D5 (was Normal)
+2026-11-22 17:25:45.715,1156.6,evil_twin,"COLLAPSE: 1 of 2 devices vanished within 114 s; 1 remain. Baseline per person: 4.0 destinations, 6.0 connections."
+2026-11-22 17:28:38.240,1329.1,device_joined,D2 (type unknown) state Normal
+2026-11-22 17:28:51.546,1342.4,device_left,D2 (was Normal)
+2026-11-22 17:28:54.591,1345.5,device_joined,D2 (type unknown) state Normal
+2026-11-22 17:28:59.713,1350.6,device_left,D2 (was Normal)
+2026-11-22 17:29:48.587,1399.5,evil_twin,"COLLAPSE: 1 of 2 devices vanished within 70 s; 1 remain. Baseline per person: 4.5 destinations, 11.2 connections."
+2026-11-22 18:00:10.990,3221.9,log_stopped,Experiment log stopped

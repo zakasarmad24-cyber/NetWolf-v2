@@ -1,0 +1,17 @@
+parameter,value,default,TPR,FPR,F1,median_delay_s
+"alpha (aggregation share)",0.3,,0.864,0.061,0.884,33.0
+"alpha (aggregation share)",0.4,,0.864,0.061,0.884,33.0
+"alpha (aggregation share)",0.5,yes,0.864,0.061,0.884,33.0
+"alpha (aggregation share)",0.6,,0.864,0.061,0.884,33.0
+"alpha (aggregation share)",0.8,,0.856,0.061,0.879,33.0
+"alpha (aggregation share)",1,,0.856,0.061,0.879,33.0
+"rho (vanished share)",0.6,,0.848,0.081,0.862,22.4
+"rho (vanished share)",0.7,,0.864,0.061,0.884,30.4
+"rho (vanished share)",0.8,yes,0.864,0.061,0.884,33.0
+"rho (vanished share)",0.9,,0.864,0.061,0.884,37.4
+"W_c (crowd window, s)",90,,0.848,0.051,0.882,33.2
+"W_c (crowd window, s)",150,yes,0.864,0.061,0.884,33.0
+"W_c (crowd window, s)",240,,0.894,0.076,0.891,33.1
+"flow idle time (s)",20,,0.848,0.071,0.868,9.3
+"flow idle time (s)",45,yes,0.864,0.061,0.884,33.0
+"flow idle time (s)",90,,0.826,0.061,0.862,77.7

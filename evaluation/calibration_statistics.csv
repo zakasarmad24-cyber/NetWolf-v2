@@ -1,0 +1,16 @@
+statistic,value
+benign E_j samples,855699
+benign E_j median,1.125
+benign E_j 95th percentile,3.500
+benign E_j 99th percentile,6.875
+benign E_j 99.9th percentile,14.734
+benign E_j maximum,71.000
+share of benign E_j >= 2,0.18775
+real normal experiments: device-hours,2.95
+real normal experiments: alerts,0
+decision agreement (score>=1 vs NetWolf decision),1.0000
+benign traces (test / calibration),12 / 12
+calibration pool shared with test,no
+excluded experiments (attack without attack_start or unlabelled with alerts),0
+seed,2026
+scale,1

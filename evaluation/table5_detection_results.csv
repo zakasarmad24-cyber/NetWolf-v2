@@ -1,0 +1,7 @@
+method,TPR,FPR,precision,F1,AUC,median_delay_after_last_victim_s,p90_delay_s,median_delay_after_attack_start_s,false_alarms_per_device_hour,positives,negatives,TP,FP,wrong_device,threshold
+"NetWolf v2",0.861,0.049,0.917,0.888,0.925,35.0,44.1,84.5,0.0217,360,570,310,28,2,fixed rule
+"B1 connection count",0.683,0.502,0.462,0.552,0.755,7.3,227.9,66.7,0.2216,360,570,246,286,0,105.0000
+"B2 destination count",0.619,0.007,0.982,0.760,0.870,3.4,159.0,58.1,0.0031,360,570,223,4,0,20.0000
+"B3 TTL forwarding only",0.989,0.200,0.757,0.858,0.966,9.7,158.4,62.9,0.0883,360,570,356,114,0,95.0000
+"B4 concentration ratio (previous NetWolf)",0.961,0.879,0.409,0.573,0.159,-7.0,96.0,33.4,0.3882,360,570,346,501,0,0.2000
+"B5 isolation forest",0.533,0.004,0.990,0.693,0.846,25.0,242.1,94.1,0.0015,360,570,192,2,0,0.7924
